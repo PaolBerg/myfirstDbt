@@ -1,0 +1,11 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: mysql
+      host: localhost
+      user: dbtuserx
+      password: colore02
+      port: 3306
+      dbname: dbt_data
+      schema: dbt_data

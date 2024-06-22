@@ -1,0 +1,4 @@
+models:
+  dbt_data:
+    enabled: true
+    schema: dbt_data
